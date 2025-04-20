@@ -4,9 +4,9 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.port = 5000  ;
-global.devs = ["923184474176"];
-global.sudo = process.env.SUDO || "923184474176"; 
-global.owner  = process.env.OWNER_NUMBER || '923184474176';
+global.devs = ["923180912992"];
+global.sudo = process.env.SUDO || "923180912992"; 
+global.owner  = process.env.OWNER_NUMBER || '923180912992';
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi';
 global.location  =  process.env.LOCATION || 'Lahore Pakistan';
 global.blockJids = process.env.BLOCK_JID || '120363023983262391@g.us';
